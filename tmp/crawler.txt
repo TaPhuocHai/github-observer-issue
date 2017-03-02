@@ -1,0 +1,20 @@
+Do job at : 11:38:14.963844
+
+---------------------------------------------------
+Tiền xử lý
+
+    rss : 218 | http://ngoisao.vn/dien-anh.rss -------> 20
+
+    Lấy tin tức --------------
+
+        218 - Ngọc Lan rạng rỡ đi thử váy cưới sau đám cưới hụt
+        218 - Khánh Thi lộ diện bên Phan Hiển sau một tháng sinh con
+        
+        Lưu dữ liệu vào database
+        
+END -----------------------------------------------------------------------------
+End job at : 11:38:16.686375
+
+Lay duoc : 2 tin moi
+Thoi gian xu ly : 0.0287066141764 phut
+
