@@ -74,7 +74,7 @@ def post_slack_job(title, link):
   content = get_des_job(link)
   attachments = {'color' : '#36a64f', 'title' : title.strip(), 'title_link' : link, 'text' : content, 'mrkdwn_in': ["text"]}
   url = "https://hooks.slack.com/services/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"
-  payload = {'payload' : '{"text" : "[awesome-jobs/vietnam]", "channel": "#monitor' + '", "attachments": [' + json.dumps(attachments) + ']}'}
+  payload = {'payload' : '{"text" : "[awesome-jobs/vietnam]", "channel": "#jobs' + '", "attachments": [' + json.dumps(attachments) + ']}'}
   requests.post(url, payload, timeout=30)
 
 def read_last_id():
