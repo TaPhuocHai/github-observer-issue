@@ -1,6 +1,8 @@
 /__init__.py
 config.py
 
+id.txt
+
 # Log
 log/*
 

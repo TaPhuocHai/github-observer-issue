@@ -57,18 +57,6 @@ def process_job(title, link):
     post_slack_job(title, link)
     return None
 
-  if title.lower().find("fullstack") != -1:
-    post_slack_job(title, link)
-    return None
-
-  if title.lower().find("full stack") != -1:
-    post_slack_job(title, link)
-    return None
-
-  if title.lower().find("full-stack") != -1:
-    post_slack_job(title, link)
-    return None
-
 
 def post_slack_job(title, link):
   content = get_des_job(link)
@@ -102,7 +90,7 @@ def schedule_job():
   post_slack ('start crawler', 'monitor')
   job()
 
-  schedule.every(12).hour.do(job)
+  schedule.every(12).hours.do(job)
   while True:
     schedule.run_pending()
     time.sleep(10)
